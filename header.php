@@ -18,7 +18,7 @@
                 <a href="/" class="logo">
                     <div class="logo_subblock">
                         <div class="media">
-                            <img src="<?php bloginfo('template_url'); ?> /public/img/personal_avatar.png" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/public/img/personal_avatar.png" alt="" />
                             <div class="media-body ">
                                 <h4><?php bloginfo("name"); ?> <small><i></i></small></h4>
                                 <p><?php bloginfo("description"); ?></p>

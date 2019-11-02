@@ -215,7 +215,7 @@ html, body {
 }
 
 .headerMenuIcon {
-    background-image: url(/blog/wp-content/themes/ht_blog_theme/public/img/icons/headerMenu.png);
+    background-image: url(/wp-content/themes/ht_blog_theme/public/img/icons/headerMenu.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 1.4em;

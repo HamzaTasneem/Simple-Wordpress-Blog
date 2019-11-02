@@ -20,7 +20,7 @@ function sb_load_css()
 function sb_load_js()
 {   
     //all js code here 
-    wp_enqueue_script("main_js", get_template_directory_uri() . "/public/js/main.js", array("jquery"), "", false);
+    wp_enqueue_script("main_js", get_template_directory_uri() . "/public/js/main.js", array("jquery"), "", fasle);
 }
 
 //loadind settings

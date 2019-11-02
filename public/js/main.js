@@ -25,7 +25,8 @@ jQuery(document).ready(function ($) {
 
     //if any image is not found, load default image
     $("img").error(function () {
-        $(this).unbind("error").attr("src", "/blog/wp-content/themes/ht_blog_theme /public/img/img_default.jpg");
+        let default_image_src = "/wp-content/themes/ht_blog_theme/public/img/img_default.jpg";
+        $(this).unbind("error").attr("src", default_image_src);
     });
 
     //adding last custom menu icon

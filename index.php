@@ -42,11 +42,11 @@
         <div class="col-content">
             <div class="most-viewed-box">
                 <div class="most-viewed-content">
-                    <img class="most-viewed-img" src="<?php bloginfo('template_url'); ?> /public/img/icons/mouse-hover.gif" alt="">
+                    <img class="most-viewed-img" src="<?php bloginfo('template_url'); ?>/public/img/icons/mouse-hover.gif" alt="">
                     <div class="most-viewed-title">Hover over any post to see its preview.</div>
                     <div class="most-viewed-text"></div>
                     <div id="postOverview" 
-                        src="<?php bloginfo('template_url'); ?> /public/img/icons/mouse-hover.gif" 
+                        src="<?php bloginfo('template_url'); ?>/public/img/icons/mouse-hover.gif" 
                         text="Hover over any post to see its preview." 
                          >
                     </div>
