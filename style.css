@@ -36,7 +36,8 @@ html, body {
     flex-direction: column;
     color: white;
     font-family: 'Raleway', sans-serif;
-    background-color: #cccccc;
+/*     background-color: #cccccc; */
+	background-color: #fdfdfd;
     color: black;
     align-items: center;
     min-height: 100vh;

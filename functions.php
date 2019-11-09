@@ -23,11 +23,23 @@ function sb_load_js()
     wp_enqueue_script("main_js", get_template_directory_uri() . "/public/js/main.js", array("jquery"), "", fasle);
 }
 
+function my_custom_mime_types( $mimes ) 
+{
+// New allowed mime types.
+$mimes['svg'] = 'image/svg+xml';
+$mimes['svgz'] = 'image/svg+xml';
+$mimes['doc'] = 'application/msword';
+
+return $mimes;
+}
+
+
 //loadind settings
 add_action( "init", "sb_load_menus" );              //adding menu action on website init
 add_action("wp_enqueue_scripts", "sb_load_css");    //adding css in header
 add_action("wp_enqueue_scripts", "sb_load_js");     //adding js in footer
 add_theme_support( 'post-thumbnails' );             //adding featured image support in sb theme
 add_theme_support( 'menus' );                       //adding menu feature support in sb theme
+add_filter( 'upload_mimes', 'my_custom_mime_types' );
 
 ?>

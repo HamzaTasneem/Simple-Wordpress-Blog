@@ -16,12 +16,12 @@
                                 </span>
 
                                 <span>
-                                    <img src="<?php bloginfo('template_url'); ?> /public/img/icons/social/facebook.png" alt="" />
-                                    <img src="<?php bloginfo('template_url'); ?> /public/img/icons/social/twitter.png" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/public/img/icons/social/facebook.png" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/public/img/icons/social/twitter.png" alt="" />
                                 </span>
                             </div>
                             <?php if (has_post_thumbnail()) {
-                                        the_post_thumbnail("large", array('class' => 'post-single-img'));
+                                        the_post_thumbnail("full", array('class' => 'post-single-img'));
                                     } ?>
 
                             <div class="post-single-text">
